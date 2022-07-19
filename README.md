@@ -15,10 +15,10 @@ The application is divided into two main portions
 
 Task capturing is simply a todo list page where you can capture all your tasks that you want to get done. It is implemented using SQL database, so that it gets stored and can be accessed in future.
 
-![main page ui](lib/assets/foucsed-study-app-todo-page.jpg)
+![main page ui](lib/assets/focused-study-app-todo-page.jpg)
 
 ### Pomodoro timer
 
 It is a stop watch that counts 25 minutes time for each study session so that you can focus your time in one task at a time. Data is fetched from todo list database and used to present status of your study time.
 
-![main page ui](lib/assets/foucsed-study-app-pomodoro-page.jpg)
+![main page ui](lib/assets/focused-study-app-pomodoro-page.jpg)
