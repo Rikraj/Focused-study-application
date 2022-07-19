@@ -1,0 +1,55 @@
+Container(
+            padding: EdgeInsets.fromLTRB(40, 34, 40, 38),
+            margin: EdgeInsets.fromLTRB(30, 0, 30, 0),
+            width: MediaQuery.of(context).size.width,
+            // decoration: BoxDecoration(
+            //   color: Colors.white,
+            //   borderRadius: BorderRadius.circular(34),
+              // boxShadow: [
+              //   BoxShadow(
+              //     color: Colors.grey.shade400,
+              //     blurRadius: 20,
+              //     spreadRadius: 2,
+              //   ),
+              // ],
+            // ),
+                        child: Column(
+              children: [
+                TextField(
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Color(0XFF273746),
+                  ),
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    prefixIcon: Icon(Icons.note_alt),
+                    hintText: 'Task title',
+                  ),
+                ),
+                TextField(
+                  keyboardType: TextInputType.multiline,
+                  maxLines: null,
+                  decoration: InputDecoration(
+                    prefixIcon: Icon(Icons.description),
+                    hintText: 'Task description',
+                  ),
+                ),
+                TextField(
+                  decoration: InputDecoration(
+                    prefixIcon: Icon(Icons.timer),
+                    hintText: 'Approx completion time',
+                  ),
+                ),
+                TextField(
+                  decoration: InputDecoration(
+                    // prefixIcon: Image.asset(
+                    //   'lib/assets/pomodoro-technique.png',
+                    //   width: 5,
+                    // ),
+                    prefixIcon: Icon(Icons.timer),
+                    hintText: 'Pomodoro time (in minutes)',
+                  ),
+                ),
+              ],
+            ),
+          ),
