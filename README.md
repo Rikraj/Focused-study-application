@@ -6,7 +6,7 @@ Welcome to a Flutter project created by Rikraj Mandal. The project idea came fro
 
 The application is divided into two main portions
 
-![main page ui](assets/foucsed-study-app-ui.jpg)
+![main page ui](lib/assets/foucsed-study-app-ui.jpg)
 
 - Capturing potential tasks you wish to complete
 - Focused time for studying using a famous technique created by Francesco Cirillo named 'Pomodoro technique'
@@ -15,10 +15,10 @@ The application is divided into two main portions
 
 Task capturing is simply a todo list page where you can capture all your tasks that you want to get done. It is implemented using SQL database, so that it gets stored and can be accessed in future.
 
-![main page ui](assets/foucsed-study-app-todo-page.jpg)
+![main page ui](lib/assets/foucsed-study-app-todo-page.jpg)
 
 ### Pomodoro timer
 
 It is a stop watch that counts 25 minutes time for each study session so that you can focus your time in one task at a time. Data is fetched from todo list database and used to present status of your study time.
 
-![main page ui](assets/foucsed-study-app-pomodoro-page.jpg)
+![main page ui](lib/assets/foucsed-study-app-pomodoro-page.jpg)
